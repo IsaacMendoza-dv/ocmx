@@ -8,16 +8,19 @@
 #navbarCollapse{
   margin-top: 10px;
 }
-.buttonText:hover{
-  color:rgb(255, 255, 255) ;  
+#buttonText:hover{
+  background-color: white;  
   border-radius: 8px;
   transition: 0.2s;
+  color: #144E60
 }
 
-.reportesButton{
+#buttonText{
+  color: white;
   border-radius: 4px;
   border-color: #144E60;
   border-width: 1px;
+  background-color:#144E60; 
   position: relative;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
