@@ -1,4 +1,5 @@
-#background{
-  background: url('lib/img/background.jpg');
-  width: 100%;
+body{
+  background-repeat: no-repeat;
+  width: 200%;
+  background-size:100% ;
 }
