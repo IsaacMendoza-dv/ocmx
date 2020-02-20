@@ -1,9 +1,43 @@
 body{
   background-repeat: no-repeat;
-  background-size:100vw ;
+  background-size:cover ;
+
 }
-#
-.mainTitle{
-  font-size: 40px;
+#title{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-color: rgb(64, 64, 65,0.25);
+  border-radius: 20px;
   text-align: center;
+  max-width: 2500px;
+}
+.mainTitle{
+  font-size: 60px;
+  text-align: 30px;
+}
+.container{
+  border-top: 20px;
+  vertical-align: center;
+  position: relative;
+}
+.col-sm{
+  display: flex;
+  margin: auto;
+  font-size: 30px;
+  background-color: rgb(64, 64, 65,0.25);
+  border-radius: 5px;
+  max-width: 350px;
+  max-height: auto;
+  margin-bottom: 4px;
+}
+.subtitle{
+  margin: auto;
+  text-align: center;
+}
+
+.col-sm:hover{
+  background-color: rgb(64, 64, 65,0.25);
+  transition: 0.2s;
+  box-shadow:  0 5px 15px rgba(0,0,0,0.3);
+  font-weight: 500;
 }
