@@ -1,6 +1,9 @@
 body{
   background-repeat: no-repeat;
-  width: 200%;
-  background-size:100% ;
-  opacity: 0.75;
+  background-size:100vw ;
+}
+#
+.mainTitle{
+  font-size: 40px;
+  text-align: center;
 }
