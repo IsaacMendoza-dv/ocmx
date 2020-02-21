@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reportes OCMX - Observatorio de la Ciudad de Mexico</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="bs-example" >
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="brandDiv">
+          <a href="../../index.html" class="navbar-brand"><img src="../img/logoOCMX-06.png" alt="" class="logoNav"></a>
+        </div>
+        <div class="navItems align-content-around">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav">
+                  <div class="reportesButton">
+                  <button onclick="window.location.href='./reportes.html'" id="buttonText"class="nav-item nav-link active">Reportes</a>
+                  </div>
+                  <a href="#" class="nav-item nav-link">Nosotros</a>
+                  <a href="https://delitosmexico.onc.org.mx/" class="nav-item nav-link" id="plataform">Plataforma de Datos</a>
+                  <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Delitos</a>
+                    <div class="dropdown-menu">
+                      <a href="lib/pages/hdoloso.html" class="dropdown-item">Homicidio Doloso</a>
+                      <a href="#" class="dropdown-item">Sent</a>
+                      <a href="#" class="dropdown-item">Drafts</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+      </nav>
+    </div>
+  <!-- MAIN PAGE -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>REPORTES</h1>
+    </div>
+    <div class="row">  
+      <div class="col-lg-06">
+        <ul>Lorem, ipsum.</ul>
+        <ul>Consequatur, commodi.</ul>
+        <ul>Accusantium, excepturi!</ul>
+        <ul>Reiciendis, quae.</ul>
+        <ul>Deleniti, ratione.</ul>    
+      </div>
+      <div class="col-lg-06" id="reportList">
+        <img src="../img/reports.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <!-- SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

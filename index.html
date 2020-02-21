@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>OCMX</title>
+<title>OCMX - Observatorio de la Ciudad de México</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="lib/styles/navbar.css">
 <link rel="stylesheet" href="lib/styles/mainPage.css">
 <link rel="stylesheet" href="./lib/styles/loader.css">
+<link rel="stylesheet" href="./lib/styles/footer.css">
 </head>
 <body background="lib/img/main_view.jpg" class=" ">
   <!-- LOADER -->
@@ -29,7 +30,7 @@
               <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav">
                   <div class="reportesButton">
-                  <button href="#" id="buttonText"class="nav-item nav-link active">Reportes</a>
+                  <button onclick="window.location.href='lib/pages/reportes.html'" id="buttonText"class="nav-item nav-link active">Reportes</button>
                   </div>
                   <a href="#" class="nav-item nav-link">Nosotros</a>
                   <a href="https://delitosmexico.onc.org.mx/" class="nav-item nav-link" id="plataform">Plataforma de Datos</a>
@@ -50,10 +51,12 @@
     </div>
     <!-- MAIN PAGE -->
     <div class="container">
-      <div id="title">
-        <p class="mainTitle">
-          OBSERVATORIO CIUDADANO DE LA <b> CIUDAD DE MÉXICO</b>
-        </p>
+      <div id="title" class="row">
+        <div class="col-xs-12">
+          <p class="mainTitle">
+            OBSERVATORIO CIUDADANO DE LA <b> CIUDAD DE MÉXICO</b>
+          </p>
+        </div>
       </div>
       <div class="" id="divSubtitles">
         <div class="row d-flex justify-content-between">
@@ -69,7 +72,8 @@
         </div>
       </div>
     </div>
-    
+  <!-- FOOTER -->
+
   <!-- SCRIPTS -->
   <script src="/Users/Isaac/Documents/ocmx/lib/js/loader.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
