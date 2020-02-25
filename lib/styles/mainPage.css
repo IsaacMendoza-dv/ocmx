@@ -2,36 +2,25 @@
 body {
   /* Location of the image */
   background-image: url(../img/main_view.jpg);
-  
-  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
-  /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
   background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
   background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
   background-color: #464646;
 }
 #title{
-  margin-top: 20vh;
-  margin-bottom: 150px;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 50px;
   background-color: rgb(64, 64, 65,0.25);
   border-radius: 20px;
-  text-align: center;
-  max-width: 2500px;
+  font-size:35px; 
 }
 .mainTitle{
-  font-size: 60px;
-  text-align: 30px;
+  padding: 15px;
+}
+.divTitle{
+  text-align: center;
 }
 .container{
   border-top: 20px;
@@ -51,11 +40,15 @@ body {
 .subtitle{
   margin: auto;
   text-align: center;
+  max-width: auto;
+  font-size: 25px;
+  
 }
 
-.col-sm:hover{
+.subtitle:hover{
   background-color: rgb(64, 64, 65,0.25);
   transition: 0.2s;
   box-shadow:  0 5px 15px rgba(0,0,0,0.3);
   font-weight: 500;
+  
 }
